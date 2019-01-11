@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zhandong/CLionProjects/untitled7/data.h">
+			<Option target="untitled7"/>
+		</Unit>
 		<Unit filename="/Users/zhandong/CLionProjects/untitled7/main.cpp">
+			<Option target="untitled7"/>
+		</Unit>
+		<Unit filename="/Users/zhandong/CLionProjects/untitled7/parser.h">
+			<Option target="untitled7"/>
+		</Unit>
+		<Unit filename="/Users/zhandong/CLionProjects/untitled7/request.h">
+			<Option target="untitled7"/>
+		</Unit>
+		<Unit filename="/Users/zhandong/CLionProjects/untitled7/response.h">
+			<Option target="untitled7"/>
+		</Unit>
+		<Unit filename="/Users/zhandong/CLionProjects/untitled7/work_list.h">
 			<Option target="untitled7"/>
 		</Unit>
 		<Unit filename="/Users/zhandong/CLionProjects/untitled7/CMakeLists.txt">

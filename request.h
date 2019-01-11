@@ -6,3 +6,25 @@
 #define UNTITLED7_REQUEST_H
 
 #endif //UNTITLED7_REQUEST_H
+
+#include <iostream>
+#include "response.h"
+#include <string>
+using namespace std;
+
+class Request {
+private:
+    string url; //请求地址
+    string header; //请求头
+public:
+    Request(string url, string header);
+
+    ~Request();
+
+    Response Get(); //爬取这个request类所对应url的数据
+
+    bool SetUrl(string url);  //设置url 成功返回 true， 失败返回 false
+
+    bool SetHeader(string header); //设置header 成功返回true， 失败返回 false
+
+};
