@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled7.dir/main.cpp.o"
+  "CMakeFiles/untitled7.dir/parser.cpp.o"
   "untitled7.pdb"
   "untitled7"
 )

@@ -9,6 +9,7 @@
 
 #include <string>
 #include <set>
+#include <list>
 
 using namespace std;
 
@@ -16,10 +17,17 @@ class Parser {
 private:
     string origin_url;
     string raw_text;
+    string charset;
+    string author;
+    string sub_time;
+    string summary;
+    string title;
+    string main_text;
+    set<string> all_urls;
 public:
-    Parser(string origin_url, string raw_text);
+    Parser(string url, string text);
     ~Parser();
-    bool ParseMainBody(); //解析原文
+    bool Parse(); //解析原文
     string GetArticleTitle(); //获取标题
     string GetSummary(); //获取摘要
     string GetCharset(); //获取编码方式

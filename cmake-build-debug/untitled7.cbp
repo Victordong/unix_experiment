@@ -86,6 +86,9 @@
 		<Unit filename="/Users/zhandong/CLionProjects/untitled7/main.cpp">
 			<Option target="untitled7"/>
 		</Unit>
+		<Unit filename="/Users/zhandong/CLionProjects/untitled7/parser.cpp">
+			<Option target="untitled7"/>
+		</Unit>
 		<Unit filename="/Users/zhandong/CLionProjects/untitled7/parser.h">
 			<Option target="untitled7"/>
 		</Unit>

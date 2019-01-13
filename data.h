@@ -21,5 +21,5 @@ private:
     string text;
 public:
     Data(string title, string author, string summary, string charset, string sub_time, string domain_name, string url, string text);//构造函数
-    bool ToFile(); //将类转化成字符串存入相应的文件中
-}
+    bool ToFile();//将类转化成字符串存入相应的文件中
+};

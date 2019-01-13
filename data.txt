@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- tplID:46074 2018文章页_纯净版 -->
+<script>if("micromessenger"==window.navigator.userAgent.toLowerCase().match(/MicroMessenger/i)&&"share.gmw.cn"!=window.location.hostname){var domainName=window.location.hostname.split(".")[0];"difang"==domainName?domainName="local":"it"==domainName?domainName="IT":"pic"==domainName?domainName="newpic":"whcy"==domainName&&(domainName="zgwhcy"),window.location.href="http://share.gmw.cn/"+domainName+window.location.pathname}
+</script>
+<meta charset="UTF-8" />
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta name="renderer" content="webkit|ie-stand|ie-comp">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=no" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="description" content="光明日报理论部、学术月刊编辑部和中国人民大学书报资料中心10日在北京联合召开2018年度中国十大学术热点发布会暨哲学社会科学学术研究展望论坛，正式发布2018年度中国十大学术热点。">
+<meta name="keywords" content="学术编辑 热点 学术发展 中国特色社会主义经济 学术问题">
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<META name="catalogs" content="9906">
+<META name="contentid" content="32335393">
+<META name="publishdate" content="2019-01-11">
+<META name="author" content="白丽克孜·帕哈丁">
+
+<link href="http://img.gmw.cn/css/conBasic_style.css?_=20180910" type="text/css" rel="stylesheet" />
+<script src="http://img.gmw.cn/js/jquery.js"></script>
+<script src="http://img.gmw.cn/js/require/config.js?_=20181010"></script>
+<script src="http://img.gmw.cn/js/require.js"></script>
+<script src="http://img.gmw.cn/js/require/conBaseMain.js?_=20181112"></script>
+<title>
+光明日报理论部等联合召开2018年度中国十大学术热点发布会暨哲学社会科学学术研究展望论坛
+_光明网</title>
+</head>
+<body class="g-mobile">
+<!-- 分享默认图 开始 -->
+<div style="position:absolute;top:-9999px;left:-9999px;width:0px;height:0px;overflow:hidden;display:none;"><img src="http://img.gmw.cn/pic/gmwLogo_share.jpg"></div>
+<!-- 分享默认图 结束 -->
+<!--顶部广告 start-->
+<div class="u-top-ad" id="top-ad"></div>
+<!--顶部广告 end-->
+<!--头部s-->
+<div class="g-header">
+    <div class="m-channel-head">
+        <div class="g-layout">
+            <div class="m-logo">
+                <!--频道logo start-->
+                <!-- 新版文章页头部频道logo ssi -->
+<meta charset="UTF-8" />
+<a href="http://www.gmw.cn/" target="_blank"><img id="headerlogo" src="http://img.gmw.cn/pic/contentlogo/4725.gif" alt="光明首页"></a>
+                <!--频道logo end-->
+            </div>
+            <div class="u-slogan"></div>
+            <div class="u-reading">正在阅读：
+                光明日报理论部等联合召开2018年度中国十大学术热点发布会暨哲学社会科学学术研究展望论坛
+            </div>
+        </div>
+    </div>
+    <!--导航-->
+    <!-- 新版文章页头部导航 ssi -->
+<!--手机端导航s-->
+<div class="m-mobile-nav">
+    <ul>
+        <li> <a href="http://politics.gmw.cn/" target="_blank">时政</a> </li>
+        <li> <a href="http://world.gmw.cn/" target="_blank">国际</a> </li>
+        <li> <a href="http://guancha.gmw.cn/" target="_blank">时评</a> </li>
+        <li> <a href="http://theory.gmw.cn/" target="_blank">理论</a> </li>
+        <li> <a href="http://culture.gmw.cn/" target="_blank">文化</a> </li>
+        <li> <a href="http://tech.gmw.cn/" target="_blank">科技</a> </li>
+        <li> <a href="http://edu.gmw.cn/" target="_blank">教育</a> </li>
+        <li> <a href="http://economy.gmw.cn/" target="_blank">经济</a> </li>
+        <li> <a href="http://life.gmw.cn/" target="_blank">生活</a> </li>
+        <li> <a href="http://legal.gmw.cn/" target="_blank">法治</a> </li>
+    </ul>
+    <span class="m-mobile-nav-btn"><i class="z-cur"></i></span>
+</div>
+<!--手机端导航e-->
+<!--电脑端导航s-->
+<div class="m-channel-nav">
+    <ul class="m-nav">
+        <li> <a href="http://politics.gmw.cn/" target="_blank">时政</a> </li>
+        <li> <a href="http://world.gmw.cn/" target="_blank">国际</a> </li>
+        <li> <a href="http://guancha.gmw.cn/" target="_blank">时评</a> </li>
+        <li> <a href="http://theory.gmw.cn/" target="_blank">理论</a> </li>
+        <li> <a href="http://culture.gmw.cn/" target="_blank">文化</a> </li>
+        <li> <a href="http://tech.gmw.cn/" target="_blank">科技</a> </li>
+        <li> <a href="http://edu.gmw.cn/" target="_blank">教育</a> </li>
+        <li> <a href="http://economy.gmw.cn/" target="_blank">经济</a> </li>
+        <li> <a href="http://life.gmw.cn/" target="_blank">生活</a> </li>
+        <li> <a href="http://legal.gmw.cn/" target="_blank">法治</a> </li>
+        <li class="more-nav-btn"> <a href="http://www.gmw.cn/map.htm" target="_blank">更多</a> </li>
+    </ul>
+</div>
+<!--电脑端导航e-->
+</div>
+<!--头部e-->
+<!--面包屑 搜索s-->
+<div class="g-toolbar">
+    <div class="m-toolbar-box">
+        <div class="m-crumbs">
+			<a href="../../../">首页</a><font>&gt; </font>
+            <a href="../../node_8926.htm"><img src="http://img.gmw.cn/pic/contentlogo/8926.gif" id="ArticleChannelID"></a><a href="../../node_8926.htm"  target="_blank"  class="">报网动态</a><Font class="">> </Font><a href="../../node_9906.htm"  target="_blank"  class="">光明日报社动态</a>
+            <font class="">&gt; </font><font>正文</font> </div>
+        <!-- 新版搜索 ssi -->
+<meta charset="UTF-8" />
+<div class="f-search">
+    <div class="m-input-group">
+        <input id="searchText" type="text" value="" name="q" >
+        <button class="u-btn" type="submit" id="submitS"></button>
+    </div>
+</div>
+    </div>
+    <div class="m-line"><span></span></div>
+</div>
+<!--面包屑 搜索e-->
+<!--正文 start-->
+<div class="g-main">
+    <!--标题 start-->
+    <div class="m-title-box">
+        <h1 class="u-title">
+            光明日报理论部等联合召开2018年度中国十大学术热点发布会暨哲学社会科学学术研究展望论坛
+        </h1>
+        <div class="m-con-info">
+            <span class="m-con-time">2019-01-11 09:14</span><span class="m-con-source">来源：<a href="http://epaper.gmw.cn/gmrb/html/2019-01/11/nw.D110000gmrb_20190111_5-01.htm" target="_blank">光明日报</a></span>
+            <div class="m-share">
+                <div class="share" id="share"> <a class="share-qqzone"><i></i></a> <a class="share-wechat" href="javascript:;"><i></i>
+                    <div class="bg-code"></div>
+                    <div class="qrcode"></div>
+                    <span class="close-btn">X</span></a> <a class="share-weibo"><i></i></a> </div>
+            </div>
+        </div>
+    </div>
+    <!--标题 end-->
+    <div class="m-con-main">
+        <!--文章正文 start-->
+        <div id="articleBox" class="con-text">
+            <div id="article_inbox">
+                <div class="m-player_box" id="video">
+                    <div id="a1"></div>
+                </div>
+                <div id="MultiAttachPh" style="display: none">
+
+                </div>
+                <div id="PicUrlPh" style="display: none">
+
+                </div>
+                <div class="u-mainText">
+                    <!--enpproperty <articleid>32335393</articleid><date>2019-01-11 09:14:41.0</date><author></author><title>光明日报理论部等联合召开2018年度中国十大学术热点发布会暨哲学社会科学学术研究展望论坛</title><keyword>学术编辑,热点,学术发展,中国特色社会主义经济,学术问题</keyword><subtitle></subtitle><introtitle></introtitle><siteid>2</siteid><nodeid>9906</nodeid><nodename>光明日报社动态</nodename><nodesearchname></nodesearchname>/enpproperty--><!--enpcontent--><!--enpcontent--><p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify">　　原标题：2018年度中国十大学术热点揭晓</p>
+<p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify"><strong>　　光明日报北京1月10日电（记者王琎）</strong>光明日报理论部、学术月刊编辑部和中国人民大学书报资料中心10日在北京联合召开2018年度中国十大学术热点发布会暨哲学社会科学学术研究展望论坛，正式发布2018年度中国十大学术热点。</p>
+<p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify">　　2018年度中国十大学术热点分别是：“习近平新时代中国特色社会主义经济思想研究”“马克思主义与当代社会”“改革开放40年：经验总结、理论创新与学科发展”“高质量发展下的现代化经济体系构建”“乡村振兴战略研究”“国家监察体制改革与刑事诉讼制度的衔接”“海洋史研究的拓展”“新时代教师队伍建设研究”“算法主导下信息传播的社会影响与挑战”“大数据视域下数字人文研究”。</p>
+<p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify">　　2018年，学术理论界深入研究习近平新时代中国特色社会主义思想的重大意义、科学体系、丰富内涵、精神实质、实践要求，围绕“八个明确”和“十四个坚持”，系统阐释了习近平新时代中国特色社会主义思想的主体内容。特别是在2017年年底举行的中央经济工作会议总结和阐述了习近平新时代中国特色社会主义经济思想之后，学者们聚焦这一中国特色社会主义政治经济学最新成果，在阐释正确处理有效市场与有为政府关系、贯彻落实新发展理念、推进供给侧结构性改革等方面取得诸多高质量研究成果。与此同时，学者们围绕马克思诞辰200周年和改革开放40周年重大时间节点，立足理论和实践创新成果，不断深化规律性认识；围绕现代化经济体系、乡村振兴战略、国家监察体制改革、教师队伍建设等重大理论命题和重大实践课题，进行多学科、多视角、多维度探索；敏锐捕捉网络化、信息化快速发展背景下的学术问题，把脉算法主导下的信息传播，探究数字时代的新型知识生产范式。热点评选专家普遍认为，与往年相比，2018年度中国十大学术热点呈现出鲜明的学科交叉融合特征，并聚焦国家重大战略需求，体现了社会关注学术、学术贴近社会。</p>
+<p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify">　　2018年年初，中国十大学术热点评选活动主办方就在总结上一年度经验基础上，对2018年度学术发展趋势开始进行细致跟踪；年中组织部分学者召开中期学术趋势研讨会，听取对半年度学术热点的梳理和预判；下半年成立12个由学术编辑和咨询专家组成的学科文献调研课题组，进行文献梳理和热点选题征集；11月26日，在北京召开主办方研讨会，梳理出涵盖哲学社会科学一级学科以及跨学科的25个备选条目；12月15日，在上海召开专家研讨会，30多名专家学者围绕备选条目及征集条目进行深入研讨，最终评选出2018年度中国十大学术热点。</p>
+<p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify">　　中国十大学术热点评选活动迄今已连续举办16届。该活动旨在通过严格规范的评审程序，运用大数据分析和学术研讨相结合的方式，总结梳理出年度中国哲学社会科学领域的重点、亮点、创新点以及最新研究成果，力求客观准确反映中国学术动态、服务中国学术研究、推进中国学术发展。目前，该活动已成为我国学术界具有较大影响力和较高权威性的学术品牌活动，受到社会各界广泛关注和高度认可。</p>
+<p style="TEXT-JUSTIFY: distribute; TEXT-ALIGN: justify" align="justify"><strong>　　（详细报道见《<a title="" href="http://news.gmw.cn/2019-01/11/content_32334236.htm" target="_blank"><font color="blue">2018年度中国十大学术热点</font></a>》）</strong><a href="../../../"><img src="https://img.gmw.cn/pic/content_logo.png" title="返回光明网首页"></a></p><!--/enpcontent--><p style="text-align:right;"><span class="liability">[责编：白丽克孜·帕哈丁]</span></p><!--/enpcontent-->
+                </div>
+                <div class="u-moreText">阅读剩余全文（<span class="u-percent"></span>）</div>
+            </div>
+        </div>
+        <!--文章正文 end-->
+        <div class="u-conBottomLine"></div> </div>
+    <!--QRcode-->
+    <!-- 新版文章页正文下方二维码 ssi -->
+<meta charset="UTF-8" />
+<div class="u-QRcode"><img src="http://img.gmw.cn/content_banner/content_650x120_qrcodes.jpg"></div>
+</div>
+<!--正文 end-->
+<!--尾部 start-->
+<!-- 新版文章页通用尾部 ssi -->
+<meta charset="UTF-8" />
+<div class="g-footer">
+	<div class="m-footer-box">
+		<div class="m-foot-logo">
+			<span>光明网版权所有</span>
+			<span class="u-backmob">返回适配版</span>
+			<a href="javascript:;" class="u-pc">返回电脑端</a>
+		</div>
+		<ul class="m-foot-nav">
+			<li>
+				<a href="http://www.gmw.cn/node_21441.htm" target="_blank">光明日报社概况</a>
+			</li>
+			<li>
+				<a href="http://www.gmw.cn/aboutus.htm" target="_blank">关于光明网</a>
+			</li>
+			<li>
+				<a href="http://www.gmw.cn/content/node_8926.htm" target="_blank">报网动态</a>
+			</li>
+			<li>
+				<a href="http://www.gmw.cn/node_46280.htm" target="_blank">联系我们</a>
+			</li>
+			<li>
+				<a href="http://www.gmw.cn/node_46279.htm" target="_blank">法律声明</a>
+			</li>
+			<li>
+				<a href="http://www.gmw.cn/gm/" target="_blank">光明员工</a>
+			</li>
+			<li>
+				<a href="http://mail.gmw.cn/" target="_blank">光明网邮箱</a>
+			</li>
+			<li class="nav-last">
+				<a href="http://www.gmw.cn/map.htm" target="_blank">网站地图</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--天润统计20181112-->
+<script src="https://img.gmw.cn/js/webdig.js" language="javascript" type="text/javascript" async></script>
+<!-- 谷歌 统计 2018 -->
+<script type="text/javascript">
+	//判断是否是微信中的浏览器
+	var ua = navigator.userAgent.toLowerCase();
+	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|ZTE/.test(navigator.userAgent)) || ua.match(/MicroMessenger/i) == "micromessenger"){
+
+	}else{
+		// 2018谷歌统计代码
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-20947729-1', 'auto');
+		ga('send', 'pageview');
+		document.write("<script async src=\'https://www.google-analytics.com/analytics.js\'><\/script>");
+	}
+</script>
+
+
+<div id="ad_all_0x0" style="position:relative;font-size:0;"></div>
+<!--尾部 end-->
+<!--返回顶部-->
+<a href="javascript:;" class="u-back-top"></a>
+<script src="https://img.gmw.cn/js/gmwac.js"></script></body>
+</html>
