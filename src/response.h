@@ -15,10 +15,13 @@ class Response {
 private:
     string header; //响应头
     string body; //响应实体
+    string status;
 public:
-    Response(string header, string body); //构造函数
+    Response(string header, string body, string status); //构造函数
 
     string GetHeader(); //获取响应头
 
     string GetBody(); //获取响应实体
+
+    string GetStatus();
 };

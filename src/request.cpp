@@ -64,8 +64,14 @@ Request::Request(string url) {
     this->domain = parsed.domain;
     this->path = parsed.path;
     this->port = 80;
-    hostent *ip = gethostbyname(this->domain.c_str());  //根据域名得到ip
-    string sin_addr = ip->h_addr_list[0];
+    this->url = url;
+    string sin_addr;
+    hostent *ip = gethostbyname(this->domain.c_str());//根据域名得到ip
+    if(ip != NULL) {
+        sin_addr = ip->h_addr_list[0];
+    } else {
+        sin_addr = "";
+    }
     this->sin_addr = sin_addr;
 }
 
@@ -82,11 +88,21 @@ string MakeHeader(string domain, string path) {
 }
 
 
+string GetStatus(string header) {
+    char status[100] = {0};
+    int j=0;
+    for (int i=header.find(" ")+1;i<header.find("\r\n");i++, j++) {
+        status[j] = header[i];
+    }
+    string status_s = status;
+    return status_s;
+}
+
 Response Request::Get() {//爬取这个request类所对应url的数据
     int sockfd;
 
-    sockfd = socket(AF_INET, SOCK_STREAM, 0);
-
+    sockfd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    cout<<"get data from "<<this->url<<endl;
     sockaddr_in server_addr;
     string header = MakeHeader(string(this->domain), this->path);
     this->header = header;
@@ -96,11 +112,11 @@ Response Request::Get() {//爬取这个request类所对应url的数据
     memcpy(&(server_addr.sin_addr), this->sin_addr.c_str(), sizeof(server_addr.sin_addr));
     if (connect(sockfd, (sockaddr *) &server_addr, sizeof(server_addr)) < 0) {//连接
         close(sockfd);
-        return Response("", "");
+        return Response("", "", "");
     }
     if (send(sockfd, this->header.c_str(), this->header.length(), 0) == -1) {//发送数据
         cout << "发送数据失败\n";
-        return Response("", "");
+        return Response("", "", "");
     }
     //接收数据存到recvdata中
     string recvdata = "";
@@ -112,21 +128,28 @@ Response Request::Get() {//爬取这个request类所对应url的数据
     }
     close(sockfd);
     char resp_header[1000]= {0};
-    char resp_body[20000]={0};
+    char resp_body[2000000]={0};
     unsigned long where = recvdata.find("\r\n\r\n",0);
+    if (where>1000) {
+        return Response("", "", "");
+    }
+    if (recvdata.length()>2000000) {
+        return Response("", "", "");
+    }
     for (int i=0;i<where;i++) {
         resp_header[i] = recvdata[i];
-        resp_body[i+1] = '\0';
     }
     while(recvdata[where]!= '<') {
         where++;
     }
     for (int i =0; where<recvdata.length(); i++) { //保存body内容
         resp_body[i] = recvdata[where];
-        resp_body[i+1] = '\0';
         where ++;
     }
-    return Response(resp_header, resp_body);
+    cout<<"get data successful"<<endl;
+    string header_s = resp_header;
+    string status = GetStatus(header_s);
+    return Response(resp_header, resp_body, status);
 }
 
 bool Request::SetUrl(string url) {
@@ -139,4 +162,13 @@ bool Request::SetUrl(string url) {
 bool Request::SetHeader(string header) {
     this->header = header;
     return true;
+}
+
+
+string Request::GetDomainName() {
+    return this->domain;
+}
+
+string Request::GetUrl() {
+    return this->url;
 }

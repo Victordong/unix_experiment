@@ -17,6 +17,7 @@ private:
     string header; //请求头
     string domain;
     string path;
+    string url;
     string sin_addr;
     int port;
 public:
@@ -29,5 +30,9 @@ public:
     bool SetUrl(string url);  //设置url 成功返回 true， 失败返回 false
 
     bool SetHeader(string header); //设置header 成功返回true， 失败返回 false
+
+    string GetDomainName();
+
+    string GetUrl();
 
 };

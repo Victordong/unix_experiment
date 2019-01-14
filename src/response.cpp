@@ -5,9 +5,14 @@
 
 #include "response.h"
 
-Response::Response(string header, string body) {
+Response::Response(string header, string body, string status) {
     this->header = header;
     this->body = body;
+    this->status = status;
+}
+
+string Response::GetStatus() {
+    return this->status;
 }
 
 string Response::GetBody() {
