@@ -14,10 +14,13 @@ using namespace std;
 
 class Request {
 private:
-    string url; //请求地址
     string header; //请求头
+    string domain;
+    string path;
+    string sin_addr;
+    int port;
 public:
-    Request(string url, string header);
+    Request(string url);
 
     ~Request();
 

@@ -57,67 +57,171 @@ include CMakeFiles/untitled7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled7.dir/flags.make
 
-CMakeFiles/untitled7.dir/main.cpp.o: CMakeFiles/untitled7.dir/flags.make
-CMakeFiles/untitled7.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled7.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/main.cpp.o -c /Users/zhandong/CLionProjects/untitled7/main.cpp
+CMakeFiles/untitled7.dir/src/main.cpp.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled7.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/src/main.cpp.o -c /Users/zhandong/CLionProjects/untitled7/src/main.cpp
 
-CMakeFiles/untitled7.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/main.cpp > CMakeFiles/untitled7.dir/main.cpp.i
+CMakeFiles/untitled7.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/src/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/src/main.cpp > CMakeFiles/untitled7.dir/src/main.cpp.i
 
-CMakeFiles/untitled7.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/main.cpp -o CMakeFiles/untitled7.dir/main.cpp.s
+CMakeFiles/untitled7.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/src/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/src/main.cpp -o CMakeFiles/untitled7.dir/src/main.cpp.s
 
-CMakeFiles/untitled7.dir/main.cpp.o.requires:
+CMakeFiles/untitled7.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/untitled7.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/untitled7.dir/src/main.cpp.o.requires
 
-CMakeFiles/untitled7.dir/main.cpp.o.provides: CMakeFiles/untitled7.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/untitled7.dir/main.cpp.o.provides
+CMakeFiles/untitled7.dir/src/main.cpp.o.provides: CMakeFiles/untitled7.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled7.dir/src/main.cpp.o.provides
 
-CMakeFiles/untitled7.dir/main.cpp.o.provides.build: CMakeFiles/untitled7.dir/main.cpp.o
+CMakeFiles/untitled7.dir/src/main.cpp.o.provides.build: CMakeFiles/untitled7.dir/src/main.cpp.o
 
 
-CMakeFiles/untitled7.dir/parser.cpp.o: CMakeFiles/untitled7.dir/flags.make
-CMakeFiles/untitled7.dir/parser.cpp.o: ../parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled7.dir/parser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/parser.cpp.o -c /Users/zhandong/CLionProjects/untitled7/parser.cpp
+CMakeFiles/untitled7.dir/src/parser.cpp.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/parser.cpp.o: ../src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled7.dir/src/parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/src/parser.cpp.o -c /Users/zhandong/CLionProjects/untitled7/src/parser.cpp
 
-CMakeFiles/untitled7.dir/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/parser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/parser.cpp > CMakeFiles/untitled7.dir/parser.cpp.i
+CMakeFiles/untitled7.dir/src/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/src/parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/src/parser.cpp > CMakeFiles/untitled7.dir/src/parser.cpp.i
 
-CMakeFiles/untitled7.dir/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/parser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/parser.cpp -o CMakeFiles/untitled7.dir/parser.cpp.s
+CMakeFiles/untitled7.dir/src/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/src/parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/src/parser.cpp -o CMakeFiles/untitled7.dir/src/parser.cpp.s
 
-CMakeFiles/untitled7.dir/parser.cpp.o.requires:
+CMakeFiles/untitled7.dir/src/parser.cpp.o.requires:
 
-.PHONY : CMakeFiles/untitled7.dir/parser.cpp.o.requires
+.PHONY : CMakeFiles/untitled7.dir/src/parser.cpp.o.requires
 
-CMakeFiles/untitled7.dir/parser.cpp.o.provides: CMakeFiles/untitled7.dir/parser.cpp.o.requires
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/parser.cpp.o.provides.build
-.PHONY : CMakeFiles/untitled7.dir/parser.cpp.o.provides
+CMakeFiles/untitled7.dir/src/parser.cpp.o.provides: CMakeFiles/untitled7.dir/src/parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/parser.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled7.dir/src/parser.cpp.o.provides
 
-CMakeFiles/untitled7.dir/parser.cpp.o.provides.build: CMakeFiles/untitled7.dir/parser.cpp.o
+CMakeFiles/untitled7.dir/src/parser.cpp.o.provides.build: CMakeFiles/untitled7.dir/src/parser.cpp.o
+
+
+CMakeFiles/untitled7.dir/src/request.cpp.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/request.cpp.o: ../src/request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled7.dir/src/request.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/src/request.cpp.o -c /Users/zhandong/CLionProjects/untitled7/src/request.cpp
+
+CMakeFiles/untitled7.dir/src/request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/src/request.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/src/request.cpp > CMakeFiles/untitled7.dir/src/request.cpp.i
+
+CMakeFiles/untitled7.dir/src/request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/src/request.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/src/request.cpp -o CMakeFiles/untitled7.dir/src/request.cpp.s
+
+CMakeFiles/untitled7.dir/src/request.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled7.dir/src/request.cpp.o.requires
+
+CMakeFiles/untitled7.dir/src/request.cpp.o.provides: CMakeFiles/untitled7.dir/src/request.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/request.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled7.dir/src/request.cpp.o.provides
+
+CMakeFiles/untitled7.dir/src/request.cpp.o.provides.build: CMakeFiles/untitled7.dir/src/request.cpp.o
+
+
+CMakeFiles/untitled7.dir/src/data.cpp.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/data.cpp.o: ../src/data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled7.dir/src/data.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/src/data.cpp.o -c /Users/zhandong/CLionProjects/untitled7/src/data.cpp
+
+CMakeFiles/untitled7.dir/src/data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/src/data.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/src/data.cpp > CMakeFiles/untitled7.dir/src/data.cpp.i
+
+CMakeFiles/untitled7.dir/src/data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/src/data.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/src/data.cpp -o CMakeFiles/untitled7.dir/src/data.cpp.s
+
+CMakeFiles/untitled7.dir/src/data.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled7.dir/src/data.cpp.o.requires
+
+CMakeFiles/untitled7.dir/src/data.cpp.o.provides: CMakeFiles/untitled7.dir/src/data.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/data.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled7.dir/src/data.cpp.o.provides
+
+CMakeFiles/untitled7.dir/src/data.cpp.o.provides.build: CMakeFiles/untitled7.dir/src/data.cpp.o
+
+
+CMakeFiles/untitled7.dir/src/work_list.cpp.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/work_list.cpp.o: ../src/work_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled7.dir/src/work_list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/src/work_list.cpp.o -c /Users/zhandong/CLionProjects/untitled7/src/work_list.cpp
+
+CMakeFiles/untitled7.dir/src/work_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/src/work_list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/src/work_list.cpp > CMakeFiles/untitled7.dir/src/work_list.cpp.i
+
+CMakeFiles/untitled7.dir/src/work_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/src/work_list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/src/work_list.cpp -o CMakeFiles/untitled7.dir/src/work_list.cpp.s
+
+CMakeFiles/untitled7.dir/src/work_list.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled7.dir/src/work_list.cpp.o.requires
+
+CMakeFiles/untitled7.dir/src/work_list.cpp.o.provides: CMakeFiles/untitled7.dir/src/work_list.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/work_list.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled7.dir/src/work_list.cpp.o.provides
+
+CMakeFiles/untitled7.dir/src/work_list.cpp.o.provides.build: CMakeFiles/untitled7.dir/src/work_list.cpp.o
+
+
+CMakeFiles/untitled7.dir/src/response.cpp.o: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/src/response.cpp.o: ../src/response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled7.dir/src/response.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled7.dir/src/response.cpp.o -c /Users/zhandong/CLionProjects/untitled7/src/response.cpp
+
+CMakeFiles/untitled7.dir/src/response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/src/response.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhandong/CLionProjects/untitled7/src/response.cpp > CMakeFiles/untitled7.dir/src/response.cpp.i
+
+CMakeFiles/untitled7.dir/src/response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/src/response.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhandong/CLionProjects/untitled7/src/response.cpp -o CMakeFiles/untitled7.dir/src/response.cpp.s
+
+CMakeFiles/untitled7.dir/src/response.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled7.dir/src/response.cpp.o.requires
+
+CMakeFiles/untitled7.dir/src/response.cpp.o.provides: CMakeFiles/untitled7.dir/src/response.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/response.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled7.dir/src/response.cpp.o.provides
+
+CMakeFiles/untitled7.dir/src/response.cpp.o.provides.build: CMakeFiles/untitled7.dir/src/response.cpp.o
 
 
 # Object files for target untitled7
 untitled7_OBJECTS = \
-"CMakeFiles/untitled7.dir/main.cpp.o" \
-"CMakeFiles/untitled7.dir/parser.cpp.o"
+"CMakeFiles/untitled7.dir/src/main.cpp.o" \
+"CMakeFiles/untitled7.dir/src/parser.cpp.o" \
+"CMakeFiles/untitled7.dir/src/request.cpp.o" \
+"CMakeFiles/untitled7.dir/src/data.cpp.o" \
+"CMakeFiles/untitled7.dir/src/work_list.cpp.o" \
+"CMakeFiles/untitled7.dir/src/response.cpp.o"
 
 # External object files for target untitled7
 untitled7_EXTERNAL_OBJECTS =
 
-untitled7: CMakeFiles/untitled7.dir/main.cpp.o
-untitled7: CMakeFiles/untitled7.dir/parser.cpp.o
+untitled7: CMakeFiles/untitled7.dir/src/main.cpp.o
+untitled7: CMakeFiles/untitled7.dir/src/parser.cpp.o
+untitled7: CMakeFiles/untitled7.dir/src/request.cpp.o
+untitled7: CMakeFiles/untitled7.dir/src/data.cpp.o
+untitled7: CMakeFiles/untitled7.dir/src/work_list.cpp.o
+untitled7: CMakeFiles/untitled7.dir/src/response.cpp.o
 untitled7: CMakeFiles/untitled7.dir/build.make
 untitled7: CMakeFiles/untitled7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled7"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled7.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +229,12 @@ CMakeFiles/untitled7.dir/build: untitled7
 
 .PHONY : CMakeFiles/untitled7.dir/build
 
-CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/main.cpp.o.requires
-CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/parser.cpp.o.requires
+CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/src/main.cpp.o.requires
+CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/src/parser.cpp.o.requires
+CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/src/request.cpp.o.requires
+CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/src/data.cpp.o.requires
+CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/src/work_list.cpp.o.requires
+CMakeFiles/untitled7.dir/requires: CMakeFiles/untitled7.dir/src/response.cpp.o.requires
 
 .PHONY : CMakeFiles/untitled7.dir/requires
 

@@ -18,8 +18,6 @@ private:
 public:
     Response(string header, string body); //构造函数
 
-    ~Response(); //析构函数
-
     string GetHeader(); //获取响应头
 
     string GetBody(); //获取响应实体

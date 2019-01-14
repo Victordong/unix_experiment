@@ -123,59 +123,167 @@ untitled7/fast:
 	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/build
 .PHONY : untitled7/fast
 
-main.o: main.cpp.o
+src/data.o: src/data.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-parser.o: parser.cpp.o
-
-.PHONY : parser.o
+.PHONY : src/data.o
 
 # target to build an object file
-parser.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/parser.cpp.o
-.PHONY : parser.cpp.o
+src/data.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/data.cpp.o
+.PHONY : src/data.cpp.o
 
-parser.i: parser.cpp.i
+src/data.i: src/data.cpp.i
 
-.PHONY : parser.i
+.PHONY : src/data.i
 
 # target to preprocess a source file
-parser.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/parser.cpp.i
-.PHONY : parser.cpp.i
+src/data.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/data.cpp.i
+.PHONY : src/data.cpp.i
 
-parser.s: parser.cpp.s
+src/data.s: src/data.cpp.s
 
-.PHONY : parser.s
+.PHONY : src/data.s
 
 # target to generate assembly for a file
-parser.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/parser.cpp.s
-.PHONY : parser.cpp.s
+src/data.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/data.cpp.s
+.PHONY : src/data.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/parser.o: src/parser.cpp.o
+
+.PHONY : src/parser.o
+
+# target to build an object file
+src/parser.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/parser.cpp.o
+.PHONY : src/parser.cpp.o
+
+src/parser.i: src/parser.cpp.i
+
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/parser.cpp.i
+.PHONY : src/parser.cpp.i
+
+src/parser.s: src/parser.cpp.s
+
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/parser.cpp.s
+.PHONY : src/parser.cpp.s
+
+src/request.o: src/request.cpp.o
+
+.PHONY : src/request.o
+
+# target to build an object file
+src/request.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/request.cpp.o
+.PHONY : src/request.cpp.o
+
+src/request.i: src/request.cpp.i
+
+.PHONY : src/request.i
+
+# target to preprocess a source file
+src/request.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/request.cpp.i
+.PHONY : src/request.cpp.i
+
+src/request.s: src/request.cpp.s
+
+.PHONY : src/request.s
+
+# target to generate assembly for a file
+src/request.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/request.cpp.s
+.PHONY : src/request.cpp.s
+
+src/response.o: src/response.cpp.o
+
+.PHONY : src/response.o
+
+# target to build an object file
+src/response.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/response.cpp.o
+.PHONY : src/response.cpp.o
+
+src/response.i: src/response.cpp.i
+
+.PHONY : src/response.i
+
+# target to preprocess a source file
+src/response.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/response.cpp.i
+.PHONY : src/response.cpp.i
+
+src/response.s: src/response.cpp.s
+
+.PHONY : src/response.s
+
+# target to generate assembly for a file
+src/response.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/response.cpp.s
+.PHONY : src/response.cpp.s
+
+src/work_list.o: src/work_list.cpp.o
+
+.PHONY : src/work_list.o
+
+# target to build an object file
+src/work_list.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/work_list.cpp.o
+.PHONY : src/work_list.cpp.o
+
+src/work_list.i: src/work_list.cpp.i
+
+.PHONY : src/work_list.i
+
+# target to preprocess a source file
+src/work_list.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/work_list.cpp.i
+.PHONY : src/work_list.cpp.i
+
+src/work_list.s: src/work_list.cpp.s
+
+.PHONY : src/work_list.s
+
+# target to generate assembly for a file
+src/work_list.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled7.dir/build.make CMakeFiles/untitled7.dir/src/work_list.cpp.s
+.PHONY : src/work_list.cpp.s
 
 # Help Target
 help:
@@ -186,12 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled7"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... parser.o"
-	@echo "... parser.i"
-	@echo "... parser.s"
+	@echo "... src/data.o"
+	@echo "... src/data.i"
+	@echo "... src/data.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
+	@echo "... src/request.o"
+	@echo "... src/request.i"
+	@echo "... src/request.s"
+	@echo "... src/response.o"
+	@echo "... src/response.i"
+	@echo "... src/response.s"
+	@echo "... src/work_list.o"
+	@echo "... src/work_list.i"
+	@echo "... src/work_list.s"
 .PHONY : help
 
 

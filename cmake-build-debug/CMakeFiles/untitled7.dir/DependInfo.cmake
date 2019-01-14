@@ -4,8 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zhandong/CLionProjects/untitled7/main.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/main.cpp.o"
-  "/Users/zhandong/CLionProjects/untitled7/parser.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/parser.cpp.o"
+  "/Users/zhandong/CLionProjects/untitled7/src/data.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/src/data.cpp.o"
+  "/Users/zhandong/CLionProjects/untitled7/src/main.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/src/main.cpp.o"
+  "/Users/zhandong/CLionProjects/untitled7/src/parser.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/src/parser.cpp.o"
+  "/Users/zhandong/CLionProjects/untitled7/src/request.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/src/request.cpp.o"
+  "/Users/zhandong/CLionProjects/untitled7/src/response.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/src/response.cpp.o"
+  "/Users/zhandong/CLionProjects/untitled7/src/work_list.cpp" "/Users/zhandong/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir/src/work_list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
