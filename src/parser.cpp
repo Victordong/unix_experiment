@@ -116,7 +116,6 @@ list<char>::iterator GetData(list<char>::iterator cursor, char *data, char begin
 }
 
 
-
 bool ParseHeader(list<char> *header_text, map<string, string> *header) {
     list<char>::iterator cursor;
     bool in_meta = false;
@@ -128,7 +127,7 @@ bool ParseHeader(list<char> *header_text, map<string, string> *header) {
     bool has_name = false;
     bool has_value = false;
     bool success;
-    for (cursor = (*header_text).begin();cursor != (*header_text).end();) {
+    for (cursor = (*header_text).begin(); cursor != (*header_text).end();) {
         if (BeginWith(cursor, "<meta") || BeginWith(cursor, "<META")) {
             in_meta = true;
         }
@@ -201,6 +200,8 @@ string HandleUrl(string origin_url, string url) {
     if (url.find('.') == url.npos) {
         return "";
     } else if (url.find("..") != url.npos) {
+        return "";
+    } else if (url.find(".css") != url.npos) {
         return "";
     } else {
         return url;
@@ -337,21 +338,23 @@ GetBeginEnd(list<char> *handle_text, list<char>::iterator mid, bool postion, lis
 }
 
 
-bool GetMainText(list<char>* handle_text, char * swap) {
+bool GetMainText(list<char> *handle_text, char *swap) {
     list<char>::iterator cursor;
-    list<char>::iterator mid = GetMidCursor(handle_text, 50, 0.95);
+    list<char>::iterator mid = GetMidCursor(handle_text, 200, 0.7);
     list<char>::iterator begin = GetBeginEnd(handle_text, mid, true, handle_text->begin(), mid);
     list<char>::iterator end = GetBeginEnd(handle_text, mid, false, mid, handle_text->end());
-    bool success = RemoveAllTag(handle_text, begin, end);
-
     int i = 0;
-    for (cursor = begin; cursor != end; i++) {
-        if (i>99990) {
+    for (cursor = begin; cursor != end;) {
+        if (i > 99990) {
             return false;
         }
-        swap[i] = *cursor;
+        if (*cursor != ' ' && *cursor != '\r') {
+            swap[i] = *cursor;
+            i++;
+        }
         ++cursor;
     }
+    cout << swap << endl;
     return true;
 }
 
@@ -362,16 +365,16 @@ bool Parser::Parse() {
     map<string, string> headers;
     list<char>::iterator cursor;
     bool success = InitHandleText(&handle_text, &handle_header, this->raw_text);
-    cout<<"init handle text successful" <<endl;
+    cout << "init handle text successful" << endl;
     ParseHeader(&handle_header, &headers);
-    cout<<"parse header text successful" <<endl;
+    cout << "parse header text successful" << endl;
     this->author = GetFromMap(&headers, "author");
     this->title = GetFromMap(&headers, "title");
     this->summary = GetFromMap(&headers, "description");
     this->sub_time = GetFromMap(&headers, "publishdate");
     this->charset = GetFromMap(&headers, "charset");
     success = RemoveDivNoteScript(&handle_text);
-    cout<<"remove tag successful" <<endl;
+    cout << "remove tag successful" << endl;
     vector<string> unhandle_urls;
     set<string> handled_urls;
     success = GetUrlsUnHandle(&handle_text, &unhandle_urls);
@@ -381,16 +384,16 @@ bool Parser::Parse() {
         this->all_urls.insert(*url_cursor);
         ++url_cursor;
     }
-    cout<<"get urls successful" <<endl;
-    if(this->author != "") {
+    cout << "get urls successful" << endl;
+    if (this->author != "") {
         char swap[100000];
         success = GetMainText(&handle_text, swap);
         if (!success) {
-            cout<<"get main text successful" <<endl;
+            cout << "get main text successful" << endl;
             return false;
         }
         this->main_text = swap;
-        cout<<"get main text successful" <<endl;
+        cout << "get main text successful" << endl;
     }
     return true;
 }

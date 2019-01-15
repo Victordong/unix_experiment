@@ -5,6 +5,7 @@
 #include "data.h"
 #include <string>
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 Data::Data(string title, string author, string summary, string charset, string sub_time, string domain_name, string url, string text) {
@@ -18,15 +19,19 @@ Data::Data(string title, string author, string summary, string charset, string s
     this->text = text;
 }
 
+string MakePathName(string domain, string sub_time, string title) {
+    return "/Users/zhandong/CLionProjects/untitled7/data/"+ domain + "_" + sub_time + "_" +title;
+}
+
 bool Data::ToFile(){
-    FILE *fp;
-    fp=fopen("file.txt","W+");
-    if(!fp)
+    string pathname = MakePathName(this->domain_name, this->sub_time, this->title);
+    ofstream fout(pathname);
+    if(!fout)
     {
         cout<<"error"<<endl;
         return false;
     }
-    fprintf(fp,"title:%s author:%s summary:%s charset:%s sub_time:%s domain_name:%s url:%s text:%s", this->title.c_str(),this->author.c_str(),this->summary.c_str(),this->charset.c_str(),this->sub_time.c_str(),this->domain_name.c_str(),this->url.c_str(),this->text.c_str());
-    fclose(fp);
+    fout<<"title: "<<this->title.c_str()<<endl<<"author: "<< this->author.c_str()<<endl<<"summary: "<<this->summary<<endl<<"charset: "<<this->charset.c_str()<<endl<<"sub_time: "<<this->sub_time<<endl<<"domain_name: "<<this->domain_name<<endl<<"url: "<<this->url<<endl<<"main text: "<<this->text<<endl;
+    fout.close();
     return true;
 }

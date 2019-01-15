@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     WorkList work_list = WorkList();
-    work_list.PutWillDo("http://politics.gmw.cn/2019-01/14/content_32349183.htm");
+    work_list.PutWillDo("http://photo.gmw.cn/2019-01/14/content_32346235.htm");
     int sum = 0;
     while (!work_list.WillDoEmpty() && sum < 10) {
         string url = work_list.GetWillDo();
@@ -21,7 +21,7 @@ int main() {
         string body = res.GetBody();
         Parser parser = Parser(url, body);
         bool success = parser.Parse();
-        set<string> all_urls = parser.GetUrlsFilter("politics.gmw.cn");
+        set<string> all_urls = parser.GetUrlsFilter(req.GetDomainName());
         set<string>::iterator url_cursor;
         for (url_cursor = all_urls.begin(); url_cursor != all_urls.end();) {
             work_list.PutWillDo((*url_cursor));
@@ -39,8 +39,10 @@ int main() {
         string sub_time = parser.GetSubTime();
         string domain = req.GetDomainName();
         string text = parser.GetMainBody();
-        Data data = Data(title, author, summary, charset, sub_time, domain, url, text);
-        data.ToFile();
+        if(domain!="" && sub_time != "" && title != "") {
+            Data data = Data(title, author, summary, charset, sub_time, domain, url, text);
+            success = data.ToFile();
+        }
         sum++;
     }
 }

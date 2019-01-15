@@ -20,4 +20,5 @@ public:
     bool PutHasdone(string url); //将一个url 放入 has done list
     bool PutWillDo(string url); //讲一个url 放入 will do list
     bool WillDoEmpty();
+    bool HasDone(string url);
 };
